@@ -6,7 +6,7 @@ def pytest_addoption(parser):
     #выбираем браузер, дефолтный - chrome
     parser.addoption('--browser_name', action='store', default='chrome',
                      help="Choose browser: chrome or firefox")
-    #выбираем язык браузера, дефолтный - английский
+    #выбираем язык браузера, дефолтный - русский
     parser.addoption('--language', default='ru', help='Choose browser language')
 
 
