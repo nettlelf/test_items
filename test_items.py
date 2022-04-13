@@ -14,3 +14,4 @@ class TestLanguage():
         )
 
         assert button_add_to_basket_visible.is_displayed()
+
